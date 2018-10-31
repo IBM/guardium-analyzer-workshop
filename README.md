@@ -27,7 +27,6 @@ Refer to slides at: [CASCON 2018 - Hands-On IBM Security GuardiumAnalyzer Bootca
   - [Add Database Connection Details](#add-database-connection-details)
   - [Add Database Scan Preference](#add-database-scan-preference)
   - [Start a Scan](#start-a-scan)
-  - [View and manage Databases](#view-and-manage-databases)
 - [View Results of Scan on Guardium Analyzer](#view-results-of-scan-on-guardium-analyzer)
   - [View Dashbaord Insights](#view-dashboard-insights)
   - [View Database Vulnerabilities](#view-dashboard-Vulnerabilities)
@@ -257,13 +256,56 @@ Note: Make sure to login with the same IBM ID that you used in [First Time Login
 
 ## Add First Database to Data Connector
 
+Now we will add a database to the `Data Connector` to scan for vulnerbilities, find reglatory data and have the results upload to `Guardium Analyzer`.
+
 ### Add Database Connection Details
+
+Going back to [Setup DB2 Database](#setup-db2-database) where we setup our DB2 Database that we want to scan. (At this step you can point it to any database which is supported based on [Supported Databases](#supported-databases)).
+
+1. Fill in the database connection information and Country (if Country is not specified, will use Default Location given on previous page).
+
+<img src="images/EnterDatabaseDetails.png" width="700" alt="Start your free tiral">
+
+Note: Following will be the information you will fill in based on what we configured for DB2 above.
+
+```
+Database type: DB2
+IP address/hostname: 127.0.0.1 // Since we are running on a VM with in the same machine. Can be a real hostname or IP address as well.
+Port: 50000
+Database name: SAMPLE
+User name: db2inst1
+Password: db2inst1-pwd
+```
+
+2. Click the <img src="images/TestConnection.png" width="100" alt="Yes"> link to make sure connection to the Database works.
+
+<img src="images/ClickTestConnection.png" width="700" alt="Start your free tiral">
+
+3. Once everything is filled in and connection works click <img src="images/Step2.png" width="100" alt="Yes"> link.
+
+4. Continue to [Add Database Scan Preference](#add-database-scan-preference) step.
 
 ### Add Database Scan Preference
 
+1. Specify which time frames you would like the `Data Connector` to scan the specific database. Click <img src="images/Confirmation.png" width="100" alt="Yes"> link.
+
+<img src="images/ScanPreferences.png" width="700" alt="Start your free tiral">
+
+2. Verify the details are correct and everything is successful in the workflow for adding a database.
+
+<img src="images/AddDatabaseConfirmation.png" width="700" alt="Start your free tiral">
+
+3. Click <img src="images/Finish.png" width="100" alt="Yes"> button.
+
+4. Continue to [Start a Scan](#start-a-scan) step.
+
 ### Start a Scan
 
-### View and manage Databases
+At this point the scan for the datababse that was just added will automatically be started.
+
+<img src="images/StartScan.png" width="700" alt="Start your free tiral">
+
+Note: Above view can also be used to View and manage databases.
 
 ## View Results of Scan on Guardium Analyzer
 
