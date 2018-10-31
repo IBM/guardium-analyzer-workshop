@@ -80,11 +80,98 @@ Keep this link handy we will get back to this at [First Time Login to IBM Securi
 
 ### Setup Database
 
-#### Databases Overview
+`IBM Security Guardium Analyzer` helps you efficiently identify risk associated with personal and sensitive personal data (PII, PHI, PCI, etc.) that falls under regulations such as the E.U.’s GDPR, PCI DSS, HIPAA and other privacy mandates. The service applies next-generation data classification, as well as vulnerability scanning, to uncover privacy risks associated with such data in cloud-based and on-prem databases.
 
 #### Supported Databases
 
+Guardium Analyzer v1.0 scans on-premises and cloud databases including db2, Oracle, and
+Microsoft SQL Server. 
+
+Guardium Analyzer can scan databases that are either installed on an Infrastructure-as-a-Service (IaaS) solution (a cloud VM, for example) or hosted by a cloud provider as long as they are still db2, Oracle or SQL Server.
+
+AWS RDS Oracle is fully tested, and we are testing Azure-MSSQL next.
+
 #### Setup DB2 Database
+
+Note: If you already have a data you would like to scan you can skip the step to setup a DB2 Database and use your own database on-prem or cloud based on [Supported Databases](#supported-databases)
+
+For this workshop we will walkthrough how we can setup a DB2 Database and bootstrap the datababse with `db2sample`
+
+##### Prerequisites
+
+1. Install Docker: [Docker](https://www.docker.com/community-edition)
+2. A Ubuntu 16.04.5 LTS physical or VM image (this what will use for this workshop)
+
+##### Pull down DB2 Express C
+
+```bash
+$ docker run -it -p 50000:50000 -e DB2INST1_PASSWORD=db2inst1-pwd -e LICENSE=accept   -v  $(pwd):/share  ibmcom/db2express-c:latest bash
+```
+
+-p 50000:50000 exposes port 50000 to allow connections from the remote client.
+
+By specifying -e DB2INST1_PASSWORD=db2inst1-pwd parameter, you set a password of your choice for the db2inst1 user for the default DB2 instance.
+
+By specifying -e LICENSE=accept parameter, you are accepting this License to use the software contained in this image.
+
+/share, referring to mount point at "/share" in the Docker.
+
+$(pwd), the current directory on Docker host while running Docker command, which is mounted by Docker container. It can also be any existing directory on Docker host, like /tmp, /opt, etc.
+
+##### Start DB2 and create sample DB
+
+Note: You will be running these with in the DB2 Express C docker container
+
+1. Login to `db2inst1` account
+
+```bash
+$ su - db2inst1
+```
+
+2. Start DB2
+
+```bash
+$ db2start
+```
+
+Should see `SQL1063N  DB2START processing was successful.` on a succesful DB2 Start.
+
+3. Create a DB2 Sample Database
+
+```bash
+$ db2sampl
+```
+
+Should see the following on a successful DB2 Sample Database creation:
+
+```
+
+  Creating database "SAMPLE"...
+  Connecting to database "SAMPLE"...
+  Creating tables and data in schema "DB2INST1"...
+  Creating tables with XML columns and XML data in schema "DB2INST1"...
+
+  'db2sampl' processing complete.
+
+```
+
+4. Connect to DB2 Sample Database
+
+```bash
+$ db2 connect to sample
+```
+
+On a successful connection you should see: 
+
+```
+   Database Connection Information
+
+ Database server        = DB2/LINUXX8664 10.5.5
+ SQL authorization ID   = DB2INST1
+ Local database alias   = SAMPLE
+```
+
+Note: Keep this terminal active as this will keep DB2 active and exposed to the network to access it. We will scan this database using the `IBM Security Data Connector`.
 
 ## First Time Login to IBM Security Guardium Analyzer
 
