@@ -33,10 +33,6 @@ Refer to slides at: [Hands-On IBM Security GuardiumAnalyzer Bootcamp.pdf](https:
   - [View Database Patterns](#view-dashboard-Vulnerabilities)
   - [View Registered Data Connectors](#view-registered-data-connector)
   - [View Settings](#view-registered-data-connector)
-    - [Notifications](#notifications)
-    - [Patterns](#patterns)
-    - [Scan Frequency](#scan-frequency)
-    - [Manage Users](#manage-users)
 - [Resources](#resources)
 - [Contacts](#contacts)
 
