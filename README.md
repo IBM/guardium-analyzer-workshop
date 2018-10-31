@@ -9,16 +9,16 @@ Refer to slides at: [CASCON 2018 - Hands-On IBM Security GuardiumAnalyzer Bootca
 **Table of Contents**
 
 - [Getting Started](#getting-started)
+  - [Register for Free Trial](#register-for-free-trial)
   - [Create IBM ID](#create-ibm-id)
   - [Setup Database](#setup-database)
-    - [Database Overview](#datababse-overview)
+    - [Databases Overview](#datababse-overview)
     - [Supported Databases](#supported-databases)
-    - [Setup DB2 Database For Workshop](#setup-db2-database-for-workshop)
-  - [Register for Free Trial](#register-for-free-trial)
+    - [Setup DB2 Database](#setup-db2-database)
 - [First Time Login to IBM Security Guardium Analyzer](#first-time-login-to-ibm-security-guardium-analyzer)
   - [Setup Insight Settings](#setup-insight-settings)
   - [Download IBM Security Guardium Data Connector](#download-ibm-security-guardium-data-connector)
-- [Setup IBM Security Guardium Data Connector ](#setup-ibm-security-guardium-data-connector)
+- [Setup IBM Security Guardium Data Connector](#setup-ibm-security-guardium-data-connector)
     - [Install Data Connector](#install-data-connector)
     - [Launch Data Connector](#launch-data-connector)
     - [Register Data Connector](#register-data-connector)
@@ -39,3 +39,66 @@ Refer to slides at: [CASCON 2018 - Hands-On IBM Security GuardiumAnalyzer Bootca
     - [Scan Frequency](#scan-frequency)
     - [Manage Users](#manage-users)
 - [Resources](#resources)
+
+## Getting Started
+
+### Register for Free Trial
+
+### Create IBM ID
+
+### Setup Database
+
+#### Databases Overview
+
+#### Supported Databases
+
+#### Setup DB2 Database
+
+## First Time Login to IBM Security Guardium Analyzer
+
+### Setup Insights Settings
+
+### Download IBM Security Guardium Data Connector
+
+## Setup IBM Security Guardium Data Connector
+
+### Install Data Connector
+
+### Launch Data Connector
+
+### Register Data Connector
+
+### Setup Default Database Location
+
+## Add First Database to Data Connector
+
+### Add Database Connection Details
+
+### Add Database Scan Preference
+
+### Start a Scan
+
+### View and manage Databases
+
+## View Results of Scan on Guardium Analyzer
+
+
+### View Dashbaord Insights
+
+### View Database Vulnerabilities
+
+### View Database Patterns
+
+### View Registered Data Connectors
+
+### View Settings
+
+#### Notifications
+
+#### Patterns
+
+#### Scan Frequency
+
+#### Manage Users
+
+## Resources
