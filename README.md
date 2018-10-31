@@ -4,7 +4,7 @@
 
 Getting started with [IBM Security Guardium Analyzer](http://ibm.biz/analyzer) for efficiently finding regulated data, understand data and database exposures, and act to address issues and minimize risk.
 
-Refer to slides at: [Hands-On IBM Security GuardiumAnalyzer Bootcamp.pdf]()
+Refer to slides at: [Hands-On IBM Security GuardiumAnalyzer Bootcamp.pdf](https://github.com/IBM/guardium-analyzer-workshop/blob/master/files/Hands-On%20IBM%20Security%20GuardiumAnalyzer%20Bootcamp.pdf)
 
 **Table of Contents**
 
