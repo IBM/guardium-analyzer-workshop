@@ -4,7 +4,7 @@
 
 Getting started with [IBM Security Guardium Analyzer](http://ibm.biz/analyzer) for efficiently finding regulated data, understand data and database exposures, and act to address issues and minimize risk.
 
-Refer to slides at: [CASCON 2018 - Hands-On IBM Security GuardiumAnalyzer Bootcamp.pdf]()
+Refer to slides at: [Hands-On IBM Security GuardiumAnalyzer Bootcamp.pdf]()
 
 **Table of Contents**
 
@@ -38,6 +38,7 @@ Refer to slides at: [CASCON 2018 - Hands-On IBM Security GuardiumAnalyzer Bootca
     - [Scan Frequency](#scan-frequency)
     - [Manage Users](#manage-users)
 - [Resources](#resources)
+- [Contacts](#contacts)
 
 ## Getting Started
 
@@ -357,12 +358,31 @@ Note: Refer to [Viewing all connectors](https://www.ibm.com/support/knowledgecen
 
 ### View Settings
 
-#### Notifications
+View settings that can be configured or changed.
 
-#### Patterns
+1. Navigate to [Settings Page](https://www.datarisk.dsoc.ibm.com/serviceui/settings) (Link: https://www.datarisk.dsoc.ibm.com/serviceui/settings).
 
-#### Scan Frequency
+<img src="images/SettingsPage.png" width="700" alt="Start your free tiral">
 
-#### Manage Users
+Note: Refer to [IBM Security Guardium Analyzer settings](https://www.ibm.com/support/knowledgecenter/SS2RDF/GuardiumAnalyzer/cloud_settings.html) for more details on how to understand this screen.
 
 ## Resources
+
+- [Guardium Analyzer marketplace page](https://www.ibm.com/us-en/marketplace/guardium-analyzer)
+  - View capabilities and subscription options
+- [Free trial](https://www.ibm.com/us-en/marketplace/guardium-analyzer/purchase#product-header-top)   
+- [Guardium Analyzer Data sheet](https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?htmlfid=53015653USEN&)
+- [Overview Guardium Analyzer demo video](https://www.youtube.com/watch?v=8NQDTf91aIc)
+- Product tutorial series:
+   - [Getting started with the Data Connector](https://www.youtube.com/watch?v=B3zKYbPdqjo)
+   - [Adding users to Guardium Analyzer](https://www.youtube.com/watch?v=Cw7Nmkc4kZ8)
+   - More to follow!
+- [Getting Started Guide/FAQ](https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?htmlfid=04016704USEN&)
+- [Webcast replay: After the GDPR Enforcement Date: Myths, Realities, and What to Do Now](https://securityintelligence.com/events/after-the-gdpr-enforcement-date-myths-realities-and-what-to-do-now/)
+- [Webcast: Analyzing Your GDPR Readiness: The Core Data Protection Capabilities You Need](https://securityintelligence.com/analyzing-your-gdpr-readiness-the-core-data-protection-capabilities-you-need/)
+
+## Contacts
+
+Devan Shah (devans@ca.ibm.com ) - Software Developer, IBM Data Security
+
+Larry Lindsay (llindsay@ca.ibm.com) - Senior Development Manager, IBM Security and Accessibility
