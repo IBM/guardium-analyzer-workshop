@@ -309,13 +309,51 @@ Note: Above view can also be used to View and manage databases.
 
 ## View Results of Scan on Guardium Analyzer
 
+Once the scan is done on the `Data Connector` we can go back to the `Guardium Analyzer` Web UI.
+
+<img src="images/ScanDone.png" width="700" alt="Start your free tiral">
+
 ### View Dashbaord Insights
+
+1. Navigate to [Dashboard Insights Page](https://www.datarisk.dsoc.ibm.com/serviceui/dashboard) (Link: https://www.datarisk.dsoc.ibm.com/serviceui/dashboard).
+
+<img src="images/Dashboard.png" width="700" alt="Start your free tiral">
+
+Note: Refer to [Viewing risk insights on the cloud](https://www.ibm.com/support/knowledgecenter/SS2RDF/GuardiumAnalyzer/cloud_insights_gdpr.html#cloud_insights_gdpr) for more details on how to understand this screen.
 
 ### View Database Vulnerabilities
 
+1. Navigate to [Database Page](https://www.datarisk.dsoc.ibm.com/serviceui/databases) (Link: https://www.datarisk.dsoc.ibm.com/serviceui/databases).
+
+<img src="images/DatabasesPage.png" width="700" alt="Start your free tiral">
+
+Note: Refer to [Viewing database results on the cloud](https://www.ibm.com/support/knowledgecenter/SS2RDF/GuardiumAnalyzer/cloud_results_databases.html#cloud_results_databases) for more details on how to understand this screen.
+
+2. Database Vulnerbilities once clicked on the database from above
+
+<img src="images/DatabaseVulnerabilities.png" width="700" alt="Start your free tiral">
+
 ### View Database Patterns
 
+1. Navigate to [Patterns Page](https://www.datarisk.dsoc.ibm.com/serviceui/patterns) (Link: https://www.datarisk.dsoc.ibm.com/serviceui/patterns).
+
+<img src="images/PatternsPage.png" width="700" alt="Start your free tiral">
+
+Note: Refer to [Viewing patterns that have been found in your databases](https://www.ibm.com/support/knowledgecenter/SS2RDF/GuardiumAnalyzer/cloud_results_patterns.html#cloud_results_patterns) for more details on how to understand this screen.
+
+2. Where do my patterns exist
+
+<img src="images/NamePatternMatches.png" width="700" alt="Start your free tiral">
+
+Note: Refer to [Viewing the results for a single pattern](https://www.ibm.com/support/knowledgecenter/SS2RDF/GuardiumAnalyzer/cloud_results_patterns_ptn.html#cloud_results_patterns_ptn) for more details on how to understand this screen.
+
 ### View Registered Data Connectors
+
+1. Navigate to [Data Connector Page](https://www.datarisk.dsoc.ibm.com/serviceui/connectors) (Link: https://www.datarisk.dsoc.ibm.com/serviceui/connectors).
+
+<img src="images/DataConnectorPage.png" width="700" alt="Start your free tiral">
+
+Note: Refer to [Viewing all connectors](https://www.ibm.com/support/knowledgecenter/SS2RDF/GuardiumAnalyzer/cloud_sc.html#cloud_sc) for more details on how to understand this screen.
 
 ### View Settings
 
