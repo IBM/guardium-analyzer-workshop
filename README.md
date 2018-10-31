@@ -12,7 +12,6 @@ Refer to slides at: [Hands-On IBM Security GuardiumAnalyzer Bootcamp.pdf](https:
   - [Register for Free Trial](#register-for-free-trial)
   - [Create IBM ID](#create-ibm-id)
   - [Setup Database](#setup-database)
-    - [Databases Overview](#datababse-overview)
     - [Supported Databases](#supported-databases)
     - [Setup DB2 Database](#setup-db2-database)
 - [First Time Login to IBM Security Guardium Analyzer](#first-time-login-to-ibm-security-guardium-analyzer)
@@ -23,16 +22,16 @@ Refer to slides at: [Hands-On IBM Security GuardiumAnalyzer Bootcamp.pdf](https:
     - [Launch Data Connector](#launch-data-connector)
     - [Register Data Connector](#register-data-connector)
     - [Setup Default Database Location](#setup-default-database-location)
-- [Add First Database to Data Connector](#add-first-databbase-to-data-connector)
+- [Add First Database to Data Connector](#add-first-database-to-data-connector)
   - [Add Database Connection Details](#add-database-connection-details)
   - [Add Database Scan Preference](#add-database-scan-preference)
   - [Start a Scan](#start-a-scan)
 - [View Results of Scan on Guardium Analyzer](#view-results-of-scan-on-guardium-analyzer)
-  - [View Dashbaord Insights](#view-dashboard-insights)
-  - [View Database Vulnerabilities](#view-dashboard-Vulnerabilities)
-  - [View Database Patterns](#view-dashboard-Vulnerabilities)
-  - [View Registered Data Connectors](#view-registered-data-connector)
-  - [View Settings](#view-registered-data-connector)
+  - [View Dashboard Insights](#view-dashboard-insights)
+  - [View Database Vulnerabilities](#view-database-Vulnerabilities)
+  - [View Database Patterns](#view-database-Vulnerabilities)
+  - [View Registered Data Connectors](#view-registered-data-connectors)
+  - [View Settings](#view-settings)
 - [Resources](#resources)
 - [Contacts](#contacts)
 
@@ -177,7 +176,7 @@ This will be the link to the `IBM Security Guardium Analyzer` Web UI which will 
 
 <img src="images/AnalyzerLogin.png" width="700" alt="Start your free tiral">
 
-### Setup Insights Settings
+### Setup Insight Settings
 
 1. After long you will be navigated to the `Welcome!` page where you can go ahead and click <img src="images/StartYourFreeTialButton.png" width="100" alt="Start your free tiral">
 
@@ -310,7 +309,7 @@ Once the scan is done on the `Data Connector` we can go back to the `Guardium An
 
 <img src="images/ScanDone.png" width="700" alt="Start your free tiral">
 
-### View Dashbaord Insights
+### View Dashboard Insights
 
 1. Navigate to [Dashboard Insights Page](https://www.datarisk.dsoc.ibm.com/serviceui/dashboard) (Link: https://www.datarisk.dsoc.ibm.com/serviceui/dashboard).
 
