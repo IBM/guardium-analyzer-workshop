@@ -175,19 +175,85 @@ Note: Keep this terminal active as this will keep DB2 active and exposed to the 
 
 ## First Time Login to IBM Security Guardium Analyzer
 
+Now lets go back to where we left of from the [Ready To Use - IBM Security Guardium Analyzer Trial](#ready-to-use-ibm-security-guardium-analyzer-trial).
+
+This will be the link to the `IBM Security Guardium Analyzer` Web UI which will login to.
+
+<img src="images/AnalyzerLogin.png" width="700" alt="Start your free tiral">
+
 ### Setup Insights Settings
+
+1. After long you will be navigated to the `Welcome!` page where you can go ahead and click <img src="images/StartYourFreeTialButton.png" width="100" alt="Start your free tiral">
+
+<img src="images/Welcome.png" width="700" alt="Start your free tiral">
+
+2. Now choose a frequence to receive insights and then click <img src="images/Next.png" width="100" alt="Start your free tiral">
+
+<img src="images/Insights.png" width="700" alt="Start your free tiral">
+
+3. Continue to [Download IBM Security Guardium Data Connector](#download-ibm-security-guardium-data-connector) step.
 
 ### Download IBM Security Guardium Data Connector
 
+At this point you will already be at the `Connect databases` page where you can download the `Data Connector`.
+
+On this page you will be provided the Video and Guide to walkthrough setting up `Data Connector` as well.
+
+<img src="images/ConnectDatabases.png" width="700" alt="Start your free tiral">
+
+Continue to the [Setup IBM Security Guardium Data Connector](#setup-ibm-security-guardium-data-connector) step to setup the `Data Connector`.
+
+Note: Can also download `Data Connector` using link: http://ibm.biz/connector
+
 ## Setup IBM Security Guardium Data Connector
+
+Unzip Data Connector package that was download from [Download IBM Security Guardium Data Connector](#download-ibm-security-guardium-data-connector) step on to a Windows server.
 
 ### Install Data Connector
 
+1. Run the `Setup.exe`
+
+<img src="images/RunSetup.png" width="700" alt="Start your free tiral">
+
+2. Select the default install location and follow the on-screen menus to finish the install.
+
+3. Continue to [Launch Data Connector](#launch-data-connector) step.
+
+<img src="images/FinishInstall.png" width="700" alt="Start your free tiral">
+
 ### Launch Data Connector
+
+1. Once clicked `Finish` in [Install Data Connector](#install-data-connector) step will be asked to browse to the login page now click <img src="images/Yes.png" width="100" alt="Yes">
+
+<img src="images/LaunchDataConnector.png" width="700" alt="Start your free tiral">
+
+2. Once the `Data Connector` Login page loads continue to [Register Data Connector](#register-data-connector) step.
 
 ### Register Data Connector
 
+Note: You will have on page https://localhost/SecureConnector on the Data Connector page at this point.
+
+1. Click the <img src="images/LoginWithIBMID.png" width="100" alt="Yes"> button.
+
+<img src="images/DataConnectorLoginPage.png" width="700" alt="Start your free tiral">
+
+Note: Make sure to login with the same IBM ID that you used in [First Time Login to IBM Security Guardium Analyzer](#first-time-login-to-ibm-security-guardium-analyzer).
+
+2. Once logged in you will be directed to the `Register` page to register the `Data Connector` with `Guardium Analyzer`. Fill in a unique name for this Data Connector.
+
+<img src="images/Register.png" width="700" alt="Start your free tiral">
+
+3. Click <img src="images/RegisterAndContinue.png" width="100" alt="Yes"> button once it is enabled.
+
+4. Once Register is successful continue to [Setup Default Database Location](#setup-default-database-location) step.
+
 ### Setup Default Database Location
+
+1. Setup the default database location as `Canada` and click <img src="images/SaveAndContinue.png" width="100" alt="Yes"> 
+
+<img src="images/DefaultDatabaseLocation.png" width="700" alt="Start your free tiral">
+
+2. Once the default database location is set continue to [Add First Database to Data Connector](#add-first-databbase-to-data-connector)
 
 ## Add First Database to Data Connector
 
@@ -200,7 +266,6 @@ Note: Keep this terminal active as this will keep DB2 active and exposed to the 
 ### View and manage Databases
 
 ## View Results of Scan on Guardium Analyzer
-
 
 ### View Dashbaord Insights
 
