@@ -373,7 +373,7 @@ Note: Refer to [IBM Security Guardium Analyzer settings](https://www.ibm.com/sup
    - [Adding users to Guardium Analyzer](https://www.youtube.com/watch?v=Cw7Nmkc4kZ8)
    - More to follow!
 - [Getting Started Guide/FAQ](https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?htmlfid=04016704USEN&)
-- [Webcast replay: After the GDPR Enforcement Date: Myths, Realities, and What to Do Now](https://securityintelligence.com/events/after-the-gdpr-enforcement-date-myths-realities-and-what-to-do-now/)
+- [Webcast replay: After the GDPR Enforcement Date: Myths, Realities, and What to Do Now](https://securityintelligence.com/events/after-the-gdpr-enforcement-date-myths-realities-and-what-to-do-now/)
 - [Webcast: Analyzing Your GDPR Readiness: The Core Data Protection Capabilities You Need](https://securityintelligence.com/analyzing-your-gdpr-readiness-the-core-data-protection-capabilities-you-need/)
 
 ## Contacts
