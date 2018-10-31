@@ -44,7 +44,39 @@ Refer to slides at: [CASCON 2018 - Hands-On IBM Security GuardiumAnalyzer Bootca
 
 ### Register for Free Trial
 
+1. Navigate to [Guardium Analyzer marketplace page](http://ibm.biz/analyzer). (Link: http://ibm.biz/analyzer) and click <img src="images/StartYourFreeTialButton.png" width="100" alt="Start your free tiral"> button.
+
+<img src="images/AnalyzerMarketingPage.png" width="700" alt="Start your free tiral">
+
+2. After clicking `Start your free trial` you will be navigated to either login with IBM ID or Create a new IBM ID. 
+
+If you do not have an IBM ID follow the steps [Create IBM ID](#create-ibm-id).
+
+If you do have an IBM ID login using your IBM ID. Then continue to [Ready To Use - IBM Security Guardium Analyzer Trial](#ready-to-use-ibm-security-guardium-analyzer-trial)
+
 ### Create IBM ID
+
+1. Fill out form presented from step [Register for Free Trial](#register-for-free-trial) in the case you have not already created an IBM ID.
+
+<img src="images/CreateIBMIDForm.png" width="700" alt="Start your free tiral">
+
+2. Follow the additional steps as part of IBM ID creation including verifying email. 
+
+<img src="images/CreateIBMIDVerify.png" width="700" alt="Start your free tiral">
+
+3. Continue to step [Ready To Use - IBM Security Guardium Analyzer Trial](#ready-to-use-ibm-security-guardium-analyzer-trial)
+
+### Ready To Use - IBM Security Guardium Analyzer Trial
+
+1. Once you have successfully registered for `IBM Security Guardium Analyzer Trial` either through the process of `Create IBM ID` or `Login to existing IBM ID` you will receive an email that the service is ready to use.
+
+<img src="images/ReadyToUseEmail.png" width="700" alt="Start your free tiral">
+
+2. Click the <img src="images/LaunchService.png" width="100" alt="Start your free tiral"> link.
+
+3. This will launch the `IBM Security Guardium Analyzer` Web UI.
+
+Keep this link handy we will get back to this at [First Time Login to IBM Security Guardium Analyzer](#first-time-login-to-ibm-security-guardium-analyzer) step.
 
 ### Setup Database
 
