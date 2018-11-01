@@ -103,15 +103,15 @@ For this workshop we will walkthrough how we can setup a DB2 Database and bootst
 $ docker run -it -p 50000:50000 -e DB2INST1_PASSWORD=db2inst1-pwd -e LICENSE=accept   -v  $(pwd):/share  ibmcom/db2express-c:latest bash
 ```
 
--p 50000:50000 exposes port 50000 to allow connections from the remote client.
+`-p 50000:50000` exposes port `50000` to allow connections from the remote client.
 
-By specifying -e DB2INST1_PASSWORD=db2inst1-pwd parameter, you set a password of your choice for the db2inst1 user for the default DB2 instance.
+By specifying `-e DB2INST1_PASSWORD=db2inst1-pwd` parameter, you set a password of your choice for the db2inst1 user for the default DB2 instance.
 
-By specifying -e LICENSE=accept parameter, you are accepting this License to use the software contained in this image.
+By specifying `-e LICENSE=accept` parameter, you are accepting this License to use the software contained in this image.
 
-/share, referring to mount point at "/share" in the Docker.
+`/share`, referring to mount point at "/share" in the Docker.
 
-$(pwd), the current directory on Docker host while running Docker command, which is mounted by Docker container. It can also be any existing directory on Docker host, like /tmp, /opt, etc.
+`$(pwd)`, the current directory on Docker host while running Docker command, which is mounted by Docker container. It can also be any existing directory on Docker host, like `/tmp`, `/opt`, etc.
 
 ##### Start DB2 and create sample DB
 
@@ -182,7 +182,7 @@ This will be the link to the `IBM Security Guardium Analyzer` Web UI which will 
 
 <img src="images/Welcome.png" width="700" alt="Start your free tiral">
 
-2. Now choose a frequence to receive insights and then click <img src="images/Next.png" width="100" alt="Start your free tiral">
+2. Now choose a frequence to receive insights and then click <img src="images/Next.png" width="100" alt="Start your free trial">
 
 <img src="images/Insights.png" width="700" alt="Start your free tiral">
 
@@ -198,7 +198,7 @@ On this page you will be provided the Video and Guide to walkthrough setting up 
 
 Continue to the [Setup IBM Security Guardium Data Connector](#setup-ibm-security-guardium-data-connector) step to setup the `Data Connector`.
 
-Note: Can also download `Data Connector` using link: http://ibm.biz/connector
+Note: Can also download `Data Connector` using this link: http://ibm.biz/connector
 
 ## Setup IBM Security Guardium Data Connector
 
@@ -230,13 +230,13 @@ Note: You will have on page https://localhost/SecureConnector on the Data Connec
 
 1. Click the <img src="images/LoginWithIBMID.png" width="100" alt="Yes"> button.
 
-<img src="images/DataConnectorLoginPage.png" width="700" alt="Start your free tiral">
+<img src="images/DataConnectorLoginPage.png" width="700" alt="Start your free trial">
 
 Note: Make sure to login with the same IBM ID that you used in [First Time Login to IBM Security Guardium Analyzer](#first-time-login-to-ibm-security-guardium-analyzer).
 
 2. Once logged in you will be directed to the `Register` page to register the `Data Connector` with `Guardium Analyzer`. Fill in a unique name for this Data Connector.
 
-<img src="images/Register.png" width="700" alt="Start your free tiral">
+<img src="images/Register.png" width="700" alt="Start your free trial">
 
 3. Click <img src="images/RegisterAndContinue.png" width="100" alt="Yes"> button once it is enabled.
 
@@ -252,7 +252,7 @@ Note: Make sure to login with the same IBM ID that you used in [First Time Login
 
 ## Add First Database to Data Connector
 
-Now we will add a database to the `Data Connector` to scan for vulnerbilities, find reglatory data and have the results upload to `Guardium Analyzer`.
+Now we will add a database to the `Data Connector` to scan for vulnerabilities, find reglatory data and have the results upload to `Guardium Analyzer`.
 
 ### Add Database Connection Details
 
@@ -325,7 +325,7 @@ Note: Refer to [Viewing risk insights on the cloud](https://www.ibm.com/support/
 
 Note: Refer to [Viewing database results on the cloud](https://www.ibm.com/support/knowledgecenter/SS2RDF/GuardiumAnalyzer/cloud_results_databases.html#cloud_results_databases) for more details on how to understand this screen.
 
-2. Database Vulnerbilities once clicked on the database from above
+2. Database Vulnerabilities once clicked on the database from above
 
 <img src="images/DatabaseVulnerabilities.png" width="700" alt="Start your free tiral">
 
